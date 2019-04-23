@@ -1,0 +1,15 @@
+t=require("term")
+t.clear()
+gpu=require("component").gpu
+w,h=gpu.maxResolution()
+d=gpu.maxDepth()
+gpu.setResolution(w,h)
+gpu.setDepth(d)
+sh=require("shell")
+sh.setWorkingDirectory("/argon/")
+os.execute("/argon/context.lua")
+local home_autorun=sh.resolve(".autorun")
+fs=require("filesystem")
+if fs.exists(home_autorun) then
+loadfile(sh.resolve("source","lua"))(home_autorun)
+end

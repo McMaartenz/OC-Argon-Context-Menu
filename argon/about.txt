@@ -1,0 +1,9 @@
+Argon Context Menu
+
+This program is made by McMaartenz, licensed under the MIT license.
+https://opensource.org/licenses/MIT
+
+Featuring an actual basic context menu, with controls you could use.
+
+Github:
+https://github.com/McMaartenz/OC-Argon-Context-Menu
