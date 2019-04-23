@@ -6,3 +6,5 @@ It let's you use many features such as a reboot, interrupt, or simply the shutdo
 
 INSTALL THIS PROGRAM:
 <br>`pastebin run -f 27AJK4CF`
+UNINSTALL THIS PROGRAM:
+<br>`pastebin run -f bGbaEDj5`
