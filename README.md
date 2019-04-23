@@ -5,4 +5,4 @@ This program features a context menu for whereever you are! (Just right click!)
 It let's you use many features such as a reboot, interrupt, or simply the shutdown!
 
 INSTALL THIS PROGRAM:
-<br>`pastebin run -f 2QicqxGQ`
+<br>`pastebin run -f 27AJK4CF`
