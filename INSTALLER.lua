@@ -1,5 +1,10 @@
 shell = require("shell")
 local wget = function(url, loc)
-  shell.execute("wget "..url.." "..loc)
+shell.execute("wget "..url.." "..loc)
 end
-wget("","/")
+shell.execute("mkdir /argon/boot/")
+wget("https://raw.githubusercontent.com/McMaartenz/OC-Argon-Context-Menu/master/argon/boot/boot.img","/argon/boot/boot.img")
+wget("https://raw.githubusercontent.com/McMaartenz/OC-Argon-Context-Menu/master/argon/context.lua","/argon/context.lua")
+wget("https://raw.githubusercontent.com/McMaartenz/OC-Argon-Context-Menu/master/argon/about.txt","/argon/about.txt")
+shell.execute("move /home/.shrc /argon/.autorun")
+wget("https://raw.githubusercontent.com/McMaartenz/OC-Argon-Context-Menu/master/.shrc","/home/.shrc")
